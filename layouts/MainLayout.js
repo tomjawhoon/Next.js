@@ -27,7 +27,7 @@ const MainLayout = props => {
                     </div>
                 </div>
             </div>
-            <div className="contest">
+            <div className="content">
                 {props.children}
             </div>
             <style jsx global> {`
