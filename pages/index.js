@@ -1,7 +1,11 @@
+import MainLayout from '../layouts/MainLayout'
+//Link = components
 const HomePage = () => {
     return (
-        <div>Home Page</div>
+        <MainLayout>
+                HomePage
+        </MainLayout>
     )
-}
+}//jsx = true
 
 export default HomePage;
